@@ -1,3 +1,4 @@
+import 'package:api_course/news_api.dart';
 import 'package:flutter/material.dart';
 import 'package:api_course/home_screen.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyApiApp(),    );
+      home: const apiTesting(), 
+    );
   }
 }
 
